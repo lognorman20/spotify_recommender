@@ -1,2 +1,2 @@
-.cache-yvngflash_
-.vscode
+*.cache
+*.vscode
