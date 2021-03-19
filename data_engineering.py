@@ -1,4 +1,4 @@
-def main():
+def auth():
     # Insert your Spotify username and the credentials that you obtained from spotify developer
     username = "yvngflash_"
     cid = "58ecd7aadf294b9aa038a3080ef670cb"
@@ -17,14 +17,6 @@ def main():
     )
 
 
-# Once the Authorisation is complete, we just need to `sp` to call the APIs
-
-token = util.prompt_for_user_token(
-    username, scope, client_id=cid, client_secret=secret, redirect_uri=redirect_uri
-)
-
-sp = spotipy.Spotify(auth=token)
-
 import time
 import os
 import pandas as pd
@@ -34,3 +26,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import random
 from functools import reduce
+import spotipy
+import spotipy.util as util
+from spotipy.oauth2 import SpotifyClientCredentials
+from spotipy.oauth2 import SpotifyOAuth
+
+auth()
+# Once the Authorisation is complete, we just need to `sp` to call the APIs
+
+# token = util.prompt_for_user_token(
+#     username, scope, client_id=cid, client_secret=secret, redirect_uri=redirect_uri
+# )
+
+# sp = spotipy.Spotify(auth=token)
