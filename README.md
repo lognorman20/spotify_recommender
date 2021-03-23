@@ -1,6 +1,6 @@
 # Recommending Songs on Spotify with Machine Learning
 
-![Sample Playlist Generated](.images/playlist_screenshot.jpg "Sample Playlist Generated")
+![Sample Playlist Generated](images/playlist_screenshot.jpg "Sample Playlist Generated")
 
 Check out my in-depth description on Medium here: (insert link)
 ## Intro
