@@ -1,4 +1,4 @@
-# Recommending Songs on Spotify with Machine Learning
+# How to Find New Songs on Spotify Using Machine Learning
 
 ![Sample Playlist Generated](images/playlist_screenshot.jpg "Sample Playlist Generated")
 
