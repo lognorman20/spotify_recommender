@@ -3,8 +3,17 @@
 ![Sample Playlist Generated](images/playlist_screenshot.jpg "Sample Playlist Generated")
 
 Check out my in-depth description on Medium here: (insert link)
-## Intro
+## Overview
 Like many others, I've experienced the immaculate song recommendations Spotify gives to its users. In this project, I create a recommendation algorithm to give song recommendations on Spotify.
+
+This repository walks you through everything I did to build the algorithm:
+
+1. Created a data pipeline to construct a dataset of nearly 10,000 songs to use as song recommendations by using Spotify's API to gather the first 50 songs of the official Spotify accounts' 1000+ playlists
+2. Scraped the user's top songs to base the recommender on by using Spotify's API
+3. Explored user's data to understand their music preferences and history
+4. Developed a classification algorithm with 99% accuracy to use to recommend songs
+5. Saved recommended songs from the algorithm to a Spotify playlist within the user's account
+
 ## Installation & Requirements
 
 Clone this repo, create a blank Anaconda environment, and install the requirements file.
