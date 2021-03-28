@@ -2,8 +2,13 @@
 
 ![Sample Playlist Generated](images/playlist_screenshot.jpg "Sample Playlist Generated")
 
-Check out my in-depth description on Medium here: (insert link)
+
 ## Overview
+
+**Check out my in-depth description on Medium here:** 
+
+https://lognorman.medium.com/how-to-find-new-songs-on-spotify-using-machine-learning-d99bd8855a18
+
 Like many others, I've experienced the immaculate song recommendations Spotify gives to its users. In this project, I create a recommendation algorithm to give song recommendations on Spotify.
 
 This repository walks you through everything I did to build the algorithm:
